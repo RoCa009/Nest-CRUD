@@ -6,7 +6,8 @@ async function bootstrap() {
   const app = await NestFactory.create(AppModule);
 
   const config = new DocumentBuilder()
-  .setTitle('Users CRUD')
+  .setDescription("CRUD de Usuarios básico con NestJS")
+  .setTitle("User's CRUD")
   .setDescription('Versión experimental')
   .setVersion('1.0')
   .build();
