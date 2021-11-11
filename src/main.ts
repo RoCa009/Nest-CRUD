@@ -9,7 +9,7 @@ async function bootstrap() {
   .setDescription("CRUD de Usuarios básico con NestJS")
   .setTitle("User's CRUD")
   .setDescription('Versión experimental')
-  .setVersion('1.0')
+  .setVersion('1.2')
   .build();
 
   const document = SwaggerModule.createDocument(app, config)
