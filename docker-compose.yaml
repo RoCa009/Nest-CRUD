@@ -5,7 +5,7 @@ services:
     user: root
     image: "96af22c8cdbf"
     ports:
-      - "8080:3000"
+      - "8085:3005"
     volumes:
       - ./jenkins_home:/var/jenkins_home
       - /usr/local/bin/docker:/usr/bin/docker

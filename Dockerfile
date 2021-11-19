@@ -15,10 +15,10 @@ COPY . .
 #Creación del comando para hacer el build de la app
 RUN npm run build
 
-ENV PORT=8080 
+ENV PORT=8085 
 
 #Mapear al puerto 8080 para el docker daemon 
-EXPOSE 8080
+EXPOSE 8085
 
 #Sólo puede haber 1 por Dockerfile y le dice al contenedor como correr la app mediante EXEC FORM 
 CMD [ "node", "dist/main" ]
