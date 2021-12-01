@@ -8,7 +8,7 @@ async function bootstrap() {
   const config = new DocumentBuilder()
   .setDescription("CRUD de Usuarios básico con NestJS")
   .setTitle("User's CRUD")
-  .setDescription('Versión experimental')
+  .setDescription('Versión experimental, tratando de pasarla a producción')
   .setVersion('1.2')
   .build();
 
